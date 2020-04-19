@@ -56,3 +56,6 @@ Finally, we can pass the parameters settings from python to lua using the follow
 self._lab.write_property("params.maze_configs.name", self.maze_name)
 ```
 Please refer the `reset` function in `env\LabEnv.py` for more details. 
+## Acknowledgement
+Thanks for the instructions from authors of Deepmind Lab. Thanks for the in-depth discussions with David Klee. I also
+bootstrap some code from David's implementation.
