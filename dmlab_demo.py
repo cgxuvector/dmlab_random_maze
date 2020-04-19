@@ -1,6 +1,6 @@
 import random
 import os
-from envs.LabEnv import RandomMaze
+from env.LabEnv import RandomMaze
 from collections import defaultdict
 import IPython.terminal.debugger as Debug
 
